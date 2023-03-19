@@ -25,7 +25,7 @@ sys
 tmp
 usr
 var
- ------------------------------------------
+
  ENTRY POINT 
  -------------
 
@@ -35,7 +35,7 @@ var
  ENTRYPOINT ["echo"]
 CMD ["shaik"]
 
-# docker container run shaik ls ==> This will only print 'ls'..
+* `docker container run shaik ls` ==> This will only print 'ls'..
 
 * Because the entry point cannot be over-ride so it is over riding the CMD ["shaik] as ["ls"]
 

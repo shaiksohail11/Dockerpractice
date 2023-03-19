@@ -6,8 +6,4 @@
   6 FROM kainoscom/jdk-17-slim
   7 EXPOSE 8080
   8 COPY --from=spc /spring-petclinic/target/spring-petclinic-3.0.0-SNAPSHOT.jar \spring-petclinic-3.0.0-SNAPSHOT.jar
-  9 CMD ["java", "-jar", "/spring-petclinic-3.0.0-SNAPSHOT.jar"]
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                
+  9 CMD ["java", "-jar", "/spring-petclinic-3.0.0-SNAPSHOT.jar"]                                                         

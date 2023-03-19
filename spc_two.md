@@ -1,6 +1,6 @@
-*** Now let us create  a docker file with slim image deom docker hub(AMAZON CORRETTO)..***
+*** Now let us create  a docker file with slim image from docker hub(AMAZON CORRETTO)..***
 
-*** Here we are using a new command called 'ADD' Which will copy the files into images i.e (Source to destination) ***
+*** Here we are using a new command called 'ADD' Which will download and copy the files i.e (Source to destination) ***
 
 
 FROM amazoncorretto:11
